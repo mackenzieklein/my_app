@@ -20,7 +20,7 @@ st.text("Over the past 45 years, do you think we've made a difference?  Seen any
 with st.form(key='my_form'):
     option = st.radio(
         'How do you view the issue of climate change?',
-        ('Serious threat', 'Somewhat serious threat', 'A threat, but not that serious'))
+        ('Serious threat', 'Somewhat serious threat', 'A threat'))
     submitted=st.form_submit_button(label='Show how your opinion compares to the world.')
          
     if submitted:
