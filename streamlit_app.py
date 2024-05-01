@@ -94,7 +94,7 @@ world.update_layout(showlegend=False)
 st.plotly_chart(world, theme='streamlit', use_container_width=True)
 
 st.markdown('___')
-st.text("Focusing in on the US allows for a firsthand view on how the climate movement has \nimpacted the country's  carbon dioxide emissions.")
+st.text("Focusing in on the US allows for a firsthand view on how the climate movement has \nimpacted the country's carbon dioxide emissions.")
 
 co_percapita=pd.read_csv('https://raw.githubusercontent.com/mackenzieklein/CSVs-for-Final/main/co2_percapita.csv')
 
