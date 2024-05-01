@@ -8,7 +8,7 @@ from streamlit_folium import folium_static
 from streamlit_folium import st_folium
 
 st.subheader("Now the big question, how far have we come?  Are we holding ourselves responsible to reach management goals?")
-st.text("Data was presented showing how much wood was harvested, but what about how much \nacreage has been replanted? Below demonstrates that many countries making a slow increase \nin their area of planted forest, showing a concentrated effort to replenish \nstripped land.")
+st.text("Data was presented showing how much wood was harvested, but what about how much \nacreage has been replanted? Below demonstrates that many countries are making a slow \nincrease in their area of planted forest, showing a concentrated effort to replenish \nstripped land.")
 
 
 forest_planted=pd.read_csv('https://raw.githubusercontent.com/mackenzieklein/CSVs-for-Final/main/plantedforest_area.csv')
