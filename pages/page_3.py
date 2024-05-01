@@ -32,7 +32,7 @@ st.text("These SDGs provide benchmark goals and guidelines for the world to impr
 countries_drr=pd.read_csv('https://raw.githubusercontent.com/mackenzieklein/CSVs-for-Final/main/reportedDRR.csv')
 countries_drr=countries_drr.loc[:, 'Indicator': '2023']
 
-st.text("Target 1.5 aims to reduce exposure and vulnerability to climate-related and \nenvironmental disaster events. We already took a look at the death and homelessness \ncaused each year due to natural disasters, so you would hope this is an important \ngoal for all countries, right?")
+st.text("Target 1.5 aims to reduce exposure and vulnerability to climate-related and \nenvironmental disaster events. Based on the death and homelessness \ncaused each year due to natural disasters, this should be an important \ngoal for all countries.")
 st.text("The goal of this SDG is for all countries to have a Disaster Risk Reduction(DRR) \nstrategy in place to not only help their people, but also combat the escalation \nof major events.")
 with st.form(key='my_form'):
     user_guess = st.slider('How many countries do you believe have a National Disaster Risk Reduction strategy?', 0, 195, 100)
