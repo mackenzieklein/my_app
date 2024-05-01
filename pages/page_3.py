@@ -27,7 +27,7 @@ st.plotly_chart(planted_world, theme='streamlit', use_container_width=True)
 
 st.markdown('___')
 st.subheader("In 2015 the UN introduced 17 Sustainable Development Goals, covering topics such as poverty, gender equality, economic growth, and climate action.")
-st.text("These SDGs provide benchmark goals and guidelines for the world to improve quality \nof life for everyone. They provide a great resource to reflect on our efforts to \ncreate a better world.")
+st.text("These SDGs provide benchmark goals and guidelines for the world to improve quality \nof life for everyone. They provide a great resource to reflect on the effort to \ncreate a better world.")
 
 countries_drr=pd.read_csv('https://raw.githubusercontent.com/mackenzieklein/CSVs-for-Final/main/reportedDRR.csv')
 countries_drr=countries_drr.loc[:, 'Indicator': '2023']
