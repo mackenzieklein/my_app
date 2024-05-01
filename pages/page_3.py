@@ -92,7 +92,7 @@ st.pyplot(rating.fig)
 
 st.markdown('___')
 st.subheader("The UN has also incorporated SDGs for companies, such as target 12.6 which encourages sustainable practices and for companies to report that information yearly.")
-st.text("Since companies, especially large and transnational ones, play such a huge role in \nproduction and procurement, it is important for the public to have access to \ntheir progress towards sustainability.")
+st.text("Since companies, especially large and transnational ones, play a huge role in \nproduction and procurement, it is important for the public to have access to \ntheir progress towards sustainability.")
 st.text("Do you think more companies will continue to adopt and report sustainable practices, \nor that the fear of profit loss is too high?")
 
 company_sus=pd.read_csv('https://raw.githubusercontent.com/mackenzieklein/CSVs-for-Final/main/companies_susreport.csv')
