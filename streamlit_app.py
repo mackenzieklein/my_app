@@ -46,7 +46,7 @@ with st.form(key='my_form'):
 st.markdown('___')
 
 st.subheader("When someone mentions climate change causes, usually two things come to mind: deforestation and greenhouse gas.  Let's examine how some countries around the world are tackling these two contributing factors.")
-st.text("Below we can see how much wood was removed by some countries only for production \nof goods and services not including anything used for energy.")
+st.text("Below we can see how much wood was removed by countries only for production \nof goods and services not including anything used for energy.")
 
 wood_removal=pd.read_csv('https://raw.githubusercontent.com/mackenzieklein/CSVs-for-Final/main/woodremovalcubicmeters_final.csv')
 
