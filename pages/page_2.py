@@ -8,7 +8,7 @@ from streamlit_folium import folium_static
 from streamlit_folium import st_folium
 
 st.subheader("If you were to ask someone why they don't take climate change seriously, they may respond with, 'So the world gets a little warmer, so what?'.")
-st.text("Unfortunately, climate change has a much larger impact on society than is believed. \nIf air pollutants cause the greenhouse effect, what do you think they do to us \nwhen we breathe them in?")
+st.text("Unfortunately, climate change has a much larger impact on society than is believed. \nIf air pollutants cause the greenhouse effect, what do you think they do to \nhumans when breathed in?")
 st.subheader("The three pollutants below are linked to cardiovascular and respiratory diseases in humans, acid rain, and vegetation damage.")
 st.text("Nitrogen dioxide(NO2) is formed from the combustion of diesel engines, coal, and \nwaste plants.  It contributes to the formation of ground-level ozone(O3) and \nparticulate black carbon (PM2.5), the other two major air pollutants.")
 airquality=pd.read_csv('https://raw.githubusercontent.com/mackenzieklein/CSVs-for-Final/main/world_air_quality.csv')
