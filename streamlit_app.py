@@ -80,7 +80,7 @@ for index,row in wood_removal.iterrows():
 st_data=folium_static(wood_map)
 
 st.markdown('___')
-st.text("As a general trend, we can see that most of the countries have been lowering their \ncarbon footprint over the years. Some say it's too little too late, \nothers would argue it hinders future development.")
+st.text("As a general trend, we can see that many countries have been lowering their \ncarbon footprint over the years. Some say it's too little too late, \nothers would argue it hinders future development.")
 
 co_percapita=pd.read_csv('https://raw.githubusercontent.com/mackenzieklein/CSVs-for-Final/main/co2_percapita.csv')
 
