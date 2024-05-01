@@ -73,7 +73,7 @@ with st.form(key='my_form'):
         st.dataframe(disaster_cost)
         
 st.markdown('___')
-st.subheader("It's easy to dismiss natural disasters as a fluke of nature, but then why since \n1901 are we seeing a steady increase in country wide precipitation levels?")
+st.subheader("It's easy to dismiss natural disasters as a fluke of nature, but then why since 1901 are we seeing a steady increase in country wide precipitation levels?")
 st.text("What we see below is an increasingly extreme deviation from the norm.")
 
 precip_anom=pd.read_csv('https://raw.githubusercontent.com/mackenzieklein/CSVs-for-Final/main/precipitation_anomaly.csv')
