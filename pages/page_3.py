@@ -42,7 +42,7 @@ with st.form(key='my_form'):
         st.dataframe(countries_drr)
 
 st.markdown('___')
-st.text("129 out of 195 countries is larger than most would guess, but if we take it a step \nfurther and look at how many local governments have their own DRR strategies, \ndo you think we will see similar results?")
+st.text("129 out of 195 countries is larger than most would guess, but taking it a step \nfurther and looking at how many local governments have their own DRR strategies, \ndo you think we will see similar results?")
 
 local_gov=pd.read_csv('https://raw.githubusercontent.com/mackenzieklein/CSVs-for-Final/main/localgov_DRR.csv')
 local_gov['GeoAreaName'] = local_gov['GeoAreaName'].str.replace('United Kingdom of Great Britain and Northern Ireland', 'United Kingdom')
